@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(56, 188, 240);
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    font-family: cursive;
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+    /* comment */
+}
+h1{
+    color:aquamarine;
+  /*background-color: aliceblue;*/ 
+    border-bottom: 3px solid black;
+    background-image: image();
+}
+img{
+    border-color: #000000;
+    border-style: solid;
+    
+}
+pre {
+      background-color: #272822;
+      color: #48e7e7;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: "Courier New", Courier, monospace;
+    }
