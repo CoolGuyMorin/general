@@ -29,6 +29,12 @@ img{
     width: 60%;
     
 }
+img.rotate {
+   transform: rotate(90deg);
+}
+img.backRotate {
+   transform: rotate(270deg);
+}
 pre {
       background-color: #272822;
       color: #48e7e7;
