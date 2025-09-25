@@ -18,9 +18,15 @@
     <details>
       <summary>Version 1</summary>
       <p>The first version of the project used an Arduino MKRzero board. To the board, I connected a DHT11 (sensor for air temperature and humidity) and BMP280 (sensor for air pressure and temperature), as well as a Real Time Clock. I programmed the device to collect air temperature and humidity from the DHT11 and air pressure from the BMP280. I choose the MKRzero specifically because it has a SD card slot, so I was able to program the device to save the collected data in a text file on the SD card as well as outputting data to the console. To make future data analysis easier, I formatted the output such that it could be read as a CSV. At first, I got the Real Time Clock working, but when trying to use it with the rest of the project I could not get it to keep time properly (always reset to 0). Because of my problems with the RTC, the device would only have the correct time if I manually updated the time in the code, and I would not be able to unplug the device (time would reset when power was lost), so I could not reliably keep time. This motivated me to work on version 2.</p>
-  <img src="./images/V1.jpg" alt="Photo of Version 1, case open, showing electronic components">
+  <img src="./images/V1.jpg" alt="Photo of Version 1, case open, showing electronic components" class="backRotate">
     </details>
-
+<details>
+  <summary>Version 2 (failed)</summary>
+  <p>Due to my issues with time keeping in version 1, and the limitations of saving collected data to an SD card, I thought it would be great to make a new version of the device, but using a microcontroller that could connect to the internet. By connecting to the internet, I would easily be able to keep time, and I could even send collected data to a server instead of just saving them to a file. For these reasons I decided to use a Particle Photon board for this version, as it connect to wifi.</p>
+  <p>Initial progress with this version went well. After setting up an account with Adafruit IO, I was able to program the Photon to send data to my Adafruit IO feeds. I was also able to set it up with the DHT11 (temperature and humidity sensor), but I was never able to get it to work with the BMP280 (temperature and pressure sensor). After trying with the BMP280 for a while, I went back and tried get at least the DHT11 set up and send the data from it to Adafruit IO, but this time the DHT11 also would not work.</p>
+  <p>After lots of trial and error, and having neither sensor work, I decided that Version 2 was not going to be viable. While the issues of V1 were solved with V2, V2 created new, and far more impactful, problems.</p>
+  <p>There are no photos of Version 2.</p>
+</details>
     
     
   </div>
