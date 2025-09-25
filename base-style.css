@@ -31,9 +31,11 @@ img{
 }
 .rotate {
    transform: rotate(90deg);
+    width: 40%;
 }
 .backRotate {
    transform: rotate(270deg);
+    width: 40%;
 }
 pre {
       background-color: #272822;
