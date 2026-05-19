@@ -36,7 +36,6 @@ img{
 .backRotate {
    transform: rotate(270deg);
     margin-left: auto;
-margin-right: auto;
 width: 50%;
 }
 pre {
