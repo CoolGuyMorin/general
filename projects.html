@@ -12,19 +12,46 @@
 <h3>Edmonton LRT Model</h3>
 <p>To keep my skills in AnyLogic that I gained from woring at Mott MacDonald, I am working on creating models of railwail and LRT networks. I figured I would start with the Edmonton LRT, as LRT and subway networks are general closed systems (less to include in model), and the Edmonton LRT specifically has lots of information about it available online.</p>
 <h4>Plan of action:</h4>
-<ul>
-  <li>Research</li>
+<ol>
+  <li>Research
+    <ul>
+      <li>General background information</li>
+      <li>Existing and future routes and stations</li>
+      <li>Schedualing or headway, and dwell at stations</li>
+      <li>Startup/shutdown operations, if publically available</li>
+      <li>Vehicle specifications</li>
+      <li>Rail alignment specifications</li>
+    </ul>
+  </li>
   <li>Draw network in Civil 3D</li>
   <li>Create map of network in AnyLogic</li>
   <li>Create car/train objects</li>
   <li>set up basic motion along routes</li>
   <li>Adjust motion to match schedules</li>
   <li>Add start screen/asthetic elements</li>
-  <li>Optional (if my laptop can handle it): add passengers & trafic</li>
-</ul>
+  <li>Optional (if my laptop can handle it): add passengers & rail crossing warnings</li>
+</ol>
     
 <h3>Weather Station</h3>
 <p>I have been working on this project since 2023, presenting it at my school's STEAM fair in 2024 and in 2025. </p>
+<h4>Original Plan of Action</h4>
+<ol>
+  <li>Research components/sensors -&#62 get components &check;</li>
+  <li>Assemble microcontroller and components &check;</li>
+  <li>Write code to be able to read values of humidity, temperature and pressure from sensors &check;</li>
+  <li>Set up real time clock (to allow for accurate timestamps) &check;</li>
+  <li>Program device to read from all sensors and record the values (and timestamp) to a file in CSV format (and repeat at a set interval).</li>
+  <li>Build casing for device, to protect from the elements (semi complete)</li>
+  <li>Set device up outside to record data (semi complete, only achieved for 1 week intervals)</li>
+  <li>Set up prorgram in R to help anaylyse data &check;</li>
+  <li>Set up website for project ~&check;</li>
+</ol>
+<h4>Added Plans</h4>
+<ul>
+  <li>Switch to microcontroller with wifi connection (semi complete)</li>
+  <li>Add live data to website (semi complete, no longer active)</li>
+  <li>Add additional features to device</li>
+</ul>
     <details>
       <summary>Goals</summary>
       <p>From the beginning the goal has been to collect data for analysis. In Earth Science 11 I learned about meteorology, which involves looking at data and making connections to weather phenomena. I thought this was interesting, but it could be more interesting and relevant if we learned it using weather data local to our school, as we could feel and see the weather changes ourselves. This inspired me to create a basic weather station for the school, so that I could collect data that future science classes could use when studying weather.</p>
